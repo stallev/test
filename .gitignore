@@ -5,6 +5,7 @@
 *.pdf
 *.psd
 *.sublime*
+smart-grid.scss
 build/
 psd/
 css/*.css
