@@ -134,7 +134,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('build', function(fn){
-  run('clean', 'copy', 'copyBootstrapJS', 'images', 'smartGR', 'style', fn);
+  run('clean', 'copy', 'smartGR', 'copyBootstrapJS', 'images', 'style', fn);
 });
 
 gulp.task('server', function(){
