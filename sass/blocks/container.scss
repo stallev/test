@@ -1,7 +1,16 @@
 .container{
+  width: 1200px;
+  margin: 0 auto;
 
   &--header-upper{
 
+  }
+  &--main{
+    column-count: 2;
+    column-gap: 0;
+    // display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
   }
 
 }

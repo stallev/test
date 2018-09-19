@@ -41,9 +41,9 @@ gulp.task('smartGR', function(){
         xs: {
             width: '560px'
         }
-        /* 
+        /*
         We can create any quantity of break points.
- 
+
         some_name: {
             width: 'Npx',
             fields: 'N(px|%|rem)',
@@ -80,8 +80,8 @@ gulp.task('serve', ['style'], function() {
     cors: true,
     ui: false
   });
-  
-  gulp.watch('sass/**/*.{scss,sass}', ['style']);
+
+  gulp.watch('sass/**/*.{scss,sass}', ['style']).on('change', server.reload);
   gulp.watch('*.html', ['copyHtml']);
   gulp.watch('build/*.html').on('change', server.reload);
 });

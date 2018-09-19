@@ -1,0 +1,8 @@
+.trip{
+  break-inside: avoid-column;
+  padding: 5px;
+  width: 500px;
+  &:nth-child(odd){
+    background-color: aquamarine;
+  }
+}
